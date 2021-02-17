@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: inherit;
+  height: 100%;
+}
+
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__full__width {
+  min-width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-3 {
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-4 {
+  width: 33.3334%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* ============ STYLE MODELS ============== */
+.glasses__model__item {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.header__wrap {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100px;
+}
+
+.header {
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  font-size: 40px;
+}
+
+.vglasses__img__wrap {
+  border: 8px solid green;
+  border-radius: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #ffffff;
+  padding: 51px 20px;
+  margin: 0 auto;
+}
+
+.vglasses__img {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  width: 210px;
+  height: 65px;
+  opacity: 0.8;
+}
+
+.glasses__list {
+  display: block;
+  margin: 20px 20px;
+  padding: 8px;
+  border: 2px solid green;
+  width: 150px;
+  height: 50px;
+}
+
+/* .model__bg__img {
+  position: relative;
+  background-image: url("/img/model.jpg");
+  background-position: center top;
+  background-size: cover;
+  width: 30%;
+  height: 460px;
+  border: 5px solid green;
+} */
+
+.model__info {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.model__info__name {
+  font-size: 15px;
+  color: #57f357;
+}
+
+.model__info__price {
+  color: #fff;
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  background: red;
+  margin: 10px 0;
+  line-height: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.model__info__desc {
+  font-size: 15px;
+  color: #42ff50;
+  line-height: 22px;
+}
